@@ -1,7 +1,7 @@
 #1e-9 = 0.000000001
 puntofijo =function(g, x0, tol=1e-9, maxIter=100){
   k = 1
-  # iteración hasta que abs(x1 - x0) <= tol o se alcance maxIteraciones
+  # iteraciÃ³n hasta que abs(x1 - x0) <= tol o se alcance maxIteraciones
   repeat{
     x1 = g(x0)
     dx = abs(x1 - x0)
